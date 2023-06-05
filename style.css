@@ -144,9 +144,26 @@ img{
     border-radius: 20px;
 }
 
-video{
-    margin: 20px;
-    padding: 20px;
+@media (max-width: 600px){
+    .imagenes{
+        display: flex;
+        flex-direction: column;
+        margin: 5px;
+    }
+    .servicios{
+        display: flex;
+        flex-direction: column;
+    }
+    #myForm{
+        display: flex;
+        flex-direction: column;
+    }
+    .video{
+        width: 90%;
+        margin: 10px;
+        display: flex;
+        justify-content: center;
+    }
 }
 
 .row{
